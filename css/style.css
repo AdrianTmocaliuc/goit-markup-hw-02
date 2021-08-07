@@ -1,0 +1,127 @@
+/* main text color - #757575 */
+/* second text color - #212121  */
+/* background color button hover - #2196F3 */
+/* background color button active - #F5F4FA */
+
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --button-text-color: #2196f3;
+}
+
+body {
+  color: var(--second-text-color);
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  position: absolute;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* header section */
+
+header {
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.header-logo {
+  font-family: Raleway, sans-serif;
+  color: var(--main-text-color);
+}
+.header-webstudio-web {
+  color: var(--button-text-color);
+}
+
+.header-nav .link {
+  color: var(--main-text-color);
+}
+
+.header-nav .link:hover,
+.header-nav .link:focus {
+  color: var(--button-text-color);
+}
+
+.header-nav .link.current {
+  color: var(--button-text-color);
+}
+
+.header-contact {
+  color: var(--second-text-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--button-text-color);
+}
+
+/* main section */
+.section-main-title {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.section-title {
+  color: var(--main-text-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.section-list p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-title.description {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.section-members-title {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* Buttons */
+.button {
+  border-color: transparent;
+}
+
+.button.primary {
+  color: #fff;
+  background-color: var(--button-text-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.button.secondary {
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--button-text-color);
+  color: #fff;
+}
+
+/* footer section */
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+}
