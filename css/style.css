@@ -24,19 +24,20 @@ a {
   list-style: none;
 }
 
+.webstudio-web {
+  color: var(--button-text-color);
+}
+
 /* header section */
 
 header {
   letter-spacing: 0.02em;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.2;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
   color: var(--main-text-color);
-}
-.header-webstudio-web {
-  color: var(--button-text-color);
 }
 
 .header-nav .link {
@@ -62,26 +63,35 @@ header {
 }
 
 /* main section */
+.section.order {
+  background-color: #2f303a;
+}
+
+/* .section.offer {
+  background: #e5e5e5;
+} */
+
 .section-main-title {
-  color: red;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.4;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .section-title {
   color: var(--main-text-color);
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.2;
 }
 
 .section-list p {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7;
 }
 
 .section-title.description {
@@ -91,10 +101,24 @@ header {
   line-height: 1.14;
 }
 
-.section-members-title {
+.section.team {
+  background: #f5f4fa;
+}
+.section-members-title,
+.section-element-title {
   color: var(--main-text-color);
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.18;
+  line-height: 1.2;
+}
+.section-element-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.section-elements p {
+  font-size: 16px;
+  line-height: 1.9;
 }
 
 /* Buttons */
@@ -107,7 +131,8 @@ header {
   background-color: var(--button-text-color);
   text-align: center;
   font-size: 16px;
-  line-height: 1.87;
+  font-weight: bold;
+  line-height: 1.9;
 }
 
 .button.secondary {
@@ -121,7 +146,17 @@ header {
 }
 
 /* footer section */
+footer {
+  background: #2f303a;
+}
+
 .footer-logo {
+  color: #fff;
   font-family: Raleway, sans-serif;
   text-decoration: none;
+}
+
+.address-link {
+  color: var(--second-text-color);
+  font-family: Roboto, sans-serif;
 }
