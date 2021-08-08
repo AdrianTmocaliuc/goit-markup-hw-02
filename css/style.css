@@ -133,6 +133,7 @@ header {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.9;
+  cursor: pointer;
 }
 
 .button.secondary {
@@ -160,4 +161,8 @@ footer {
 .address-link {
   color: var(--second-text-color);
   font-family: Roboto, sans-serif;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--button-text-color);
 }
