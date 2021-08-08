@@ -138,6 +138,7 @@ header {
 .button.secondary {
   color: var(--main-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .button.secondary:hover,
 .button.secondary:focus {
