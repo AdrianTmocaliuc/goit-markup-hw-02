@@ -135,6 +135,10 @@ header {
   line-height: 1.9;
   cursor: pointer;
 }
+.button.primary:hover,
+.button.primary:focus {
+  background-color: #188ce8;
+}
 
 .button.secondary {
   color: var(--main-text-color);
